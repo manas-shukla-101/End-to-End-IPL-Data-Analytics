@@ -247,7 +247,7 @@ End-to-End-IPL-Data-Analytics/
 └── README.md
 ```
 
-> ⚠️ Raw dataset (`matches.csv` & `deliveries.csv`) is tracked via **Git LFS** due to file size and downloads automatically on clone.
+> ⚠️ Raw dataset (`matches.csv` & `deliveries.csv`) is not there in this repo due tp some technical reasons. You can download it by [clicking here](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
 
 ---
 
