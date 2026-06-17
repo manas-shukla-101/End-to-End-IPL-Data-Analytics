@@ -223,23 +223,28 @@ Open `IPL Dashboard/IPL_Dashboard.pbix` — all visuals load automatically from 
 End-to-End-IPL-Data-Analytics/
 │
 ├── Dashboard Screenshots/           # Preview images of all 5 dashboard pages
+│   ├── 1_Overview.jpeg              
+│   ├── 2_Team-Performance.jpeg             
+│   ├── 3_Batting-Analysis.jpeg      
+│   ├── 4_Bowling-Analysis.jpeg      
+│   └── 5_Match-Insight.jpeg
 │
 ├── IPL Dashboard/                   # Power BI Dashboard file
 │   └── IPL_Dashboard.pbix           # 5-page interactive dashboard
 │
-├── PowerBI Tables/                  # 12 cleaned CSVs — direct Power BI input
-│   ├── dim_matches.csv              # 1,095 rows  | Master match dimension table
-│   ├── season_stats.csv             # 16 rows     | Season-level aggregates
-│   ├── team_performance.csv         # 138 rows    | Wins, losses, win% per team per season
-│   ├── toss_analysis.csv            # 32 rows     | Toss decision vs match outcome
-│   ├── batting_scorecard.csv        # 16,515 rows | Per-match batting stats
-│   ├── batting_career.csv           # 673 rows    | Career batting aggregates per player
-│   ├── bowling_scorecard.csv        # 12,978 rows | Per-match bowling stats
-│   ├── bowling_career.csv           # 530 rows    | Career bowling aggregates per player
-│   ├── over_runrate.csv             # 320 rows    | Run rate by over number
-│   ├── venue_stats.csv              # 58 rows     | Venue-wise match stats
-│   ├── player_of_match.csv          # 291 rows    | Player of the match frequency
-│   └── dismissal_types.csv          # 122 rows    | Dismissal type distribution
+├── PowerBI Tables/                  
+│   ├── dim_matches.csv              
+│   ├── season_stats.csv             
+│   ├── team_performance.csv         
+│   ├── toss_analysis.csv            
+│   ├── batting_scorecard.csv        
+│   ├── batting_career.csv           
+│   ├── bowling_scorecard.csv        
+│   ├── bowling_career.csv           
+│   ├── over_runrate.csv             
+│   ├── venue_stats.csv              
+│   ├── player_of_match.csv          
+│   └── dismissal_types.csv          
 │
 ├── Python Script/                   # Data cleaning & export script
 │   └── ipl_analysis.py              # Loads raw CSVs → cleans → exports PowerBI Tables
