@@ -16,7 +16,7 @@ This project demonstrates:
 - Star schema data modeling in Power BI
 - DAX measures for KPI development
 - Interactive 5-page dashboard storytelling
-
+ 
 ---
   
 ## 🧠 Business Problem
