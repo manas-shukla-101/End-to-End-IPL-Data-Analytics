@@ -10,7 +10,7 @@
 An end-to-end Data Analytics project on the **Indian Premier League (IPL)** dataset (2008–2024), covering ball-by-ball delivery data and match-level records across 16 seasons.
 
 This project demonstrates:
-
+ 
 - Python-based data cleaning & feature engineering
 - Team name standardization across franchise renames
 - Star schema data modeling in Power BI
